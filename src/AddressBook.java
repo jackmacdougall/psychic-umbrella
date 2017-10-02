@@ -27,7 +27,7 @@ private List<BuddyInfo> addressBook;
 	public static void main(String[] args) {
 		BuddyInfo Homer = new BuddyInfo("Homer", "742 Evergreen Terrace", "555-7334");
 		AddressBook adBook = new AddressBook();
-		adBook.addBuddy(Homer);
+		adBook.addBuddy(Homer); //adds buddy
 		adBook.deleteBuddy(0);
 	}
 }
