@@ -23,6 +23,7 @@ private List<BuddyInfo> addressBook;
 		}return null;
 	}
 	
+	//main function
 	public static void main(String[] args) {
 		BuddyInfo Homer = new BuddyInfo("Homer", "742 Evergreen Terrace", "555-7334");
 		AddressBook adBook = new AddressBook();
