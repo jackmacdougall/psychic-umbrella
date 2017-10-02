@@ -28,6 +28,6 @@ private List<BuddyInfo> addressBook;
 		BuddyInfo Homer = new BuddyInfo("Homer", "742 Evergreen Terrace", "555-7334");
 		AddressBook adBook = new AddressBook();
 		adBook.addBuddy(Homer); //adds buddy
-		adBook.deleteBuddy(0);
+		adBook.deleteBuddy(0); //removes at 0
 	}
 }
